@@ -12,6 +12,7 @@ colorscheme lucius
 "g:lucius_style='dark'
 set background=dark
 set mouse=a
+let g:alternateSearchPath = 'reg:/include/src/g/,reg:/src/include/g/'
 " }
 
 set nocompatible
