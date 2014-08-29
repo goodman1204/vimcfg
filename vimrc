@@ -11,7 +11,10 @@ set guioptions=egrL
 colorscheme lucius
 "g:lucius_style='dark'
 set background=dark
+" scrolloff need to be adjusted by yourself
+" set scrolloff=25 
 set mouse=a
+
 let g:alternateSearchPath = 'reg:/include/src/g/,reg:/src/include/g/'
 " }
 
