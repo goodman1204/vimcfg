@@ -12,7 +12,13 @@ mv ~/.vim ~/.vim.old
 
 ### do following steps
 
-1. put files in your home:  
+1. download this repo:  
+
+ ```bash  
+ git clone https://github.com/chetui/vimcfg.git
+ ```
+
+2. put files in your home:  
 
  ```bash  
  mv vimcfg/vimrc ~/.vimrc  
@@ -20,20 +26,22 @@ mv ~/.vim ~/.vim.old
  mv vimcfg/colors ~/.vim/
  ```
 
-2. download the plugin mamage plugin:
+3. download the plugin mamage plugin:
 
  ```bash
  git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
  ```
 
-3. Install all the plugins:
+4. Install all the plugins:
 
  ```bash
  vim +BundleInstall +qall 
- #in this setp, it may ask you for username or password, please type the ENTER instead of type your username or password.
+ # in this setp, it may ask you for username or password, 
+ # please type the ENTER instead of type your username or 
+ # password.
  ```
 
-4. fix a bug of WinManager:
+5. fix a bug of WinManager:
 
  ```bash
  vim ~/.vim/bundle/winmanager/plugin/winmanager.vim
