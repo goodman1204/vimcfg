@@ -66,6 +66,10 @@ Bundle 'git://vim-latex.git.sourceforge.net/gitroot/vim-latex/vim-latex'
 filetype plugin indent on
 " }
 
+" Plugin: ShowMarks {
+let g:showmarks_enable = 0
+" }
+
 " Plugin: gist-vim {
 " let g:gist_use_password_in_gitconfig = 1
 let g:gist_clip_command = 'pbcopy'
